@@ -2,6 +2,7 @@ from sandwich_classes import Pool
 from matplotlib import pyplot as plt
 import numpy as np
 
+# Takes as input the pool data, initializes a pool
 def plotSandwicherUtility(_initialR0, _initialR1, _fee):
 
     pool = Pool(_initialR0, _initialR1, _fee)
